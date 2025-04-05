@@ -13,25 +13,17 @@ public class BottomManager : MonoBehaviour
 
     public void Start()
     {
-        if (abilities != null) 
-        {
-            foreach (Ability ability in abilities) 
-            {
-                ability.Refresh();
-            }
-        }
 
-        StackAbilites();
     }
 
 
 
-    public void StackAbilites() 
+    public void StackAbilites(string name) 
     {
         List<Ability> abilitiesFromBelow = new List<Ability>();
         for (int i = 4; i >= 0; i--) 
         {
-            if (abilities[i].abilityName.text != "") 
+            if (abilities[i].abilityName.text != null) 
             {
                 abilitiesFromBelow.Add(abilities[i]);
             }
@@ -46,7 +38,7 @@ public class BottomManager : MonoBehaviour
             abilitiesFromBelow[i].transform.localPosition = new Vector3(0, CurrentHeight, 0);
         }
 
-        nameText.Refresh(CurrentHeight + gapHeight);
+        nameText.Refresh(name, CurrentHeight + gapHeight);
     }
 
     public void FindHeightSum() 
@@ -59,5 +51,22 @@ public class BottomManager : MonoBehaviour
                 heightSum += abilities[i].myBackDrop.spriteRenderer.size.y + gapHeight;
             }
         }
+    }
+
+    public void Refresh(string name, List<AbilityData> abilityDatas) 
+    {
+        for (int i = 0; i < abilities.Count; i++) 
+        {
+            if (i < abilityDatas.Count)
+            {
+                abilities[i].Refresh(abilityDatas[i]);
+            }
+            else 
+            {
+                abilities[i].Refresh(new AbilityData());
+            }
+        }
+
+        StackAbilites(name);
     }
 }

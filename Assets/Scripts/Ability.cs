@@ -9,11 +9,6 @@ public class Ability : MonoBehaviour
     public TextMeshPro abilityDescription;
     public AbilityBackDrop myBackDrop;
 
-    void Start()
-    {
-
-    }
-
     string ReplaceIcons(string text) 
     {
         text = text.Replace("#ºì", "<sprite=0>");
@@ -24,11 +19,16 @@ public class Ability : MonoBehaviour
         return text;
     }
 
-    public void Refresh() 
+    public void Refresh(AbilityData myData) 
     {
-        if (abilityName.text == "")
+        //Enter Data
+        abilityName.text = myData.AbilityName;
+        abilityDescription.text = myData.AbilityText;
+
+        //If empty, shrink, else replace #É« with sprites, then tell backdrop to expand accordingly
+        if (abilityName.text == null)
         {
-            abilityDescription.text = "";
+            abilityDescription.text = null;
             myBackDrop.spriteRenderer.size = new Vector2(7,0);
         }
         else 
