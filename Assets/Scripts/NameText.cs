@@ -11,7 +11,7 @@ public class NameText : MonoBehaviour
     public void Refresh(string name, float yPos) 
     {
         //ChangeName
-        myTMPro.name = name;
+        myTMPro.text = name;
 
         //LocateName on top of ability0
         transform.localPosition = new Vector3(0, yPos, 0);
@@ -20,7 +20,6 @@ public class NameText : MonoBehaviour
         //Expand backdrop according to textlengh
         float width = myTMPro.textBounds.size.x + 0.23f;
         mySprite.size = new Vector2(0.7f, width);//The block is rotated sideways therefore width is height.
-        Debug.Log(width);
     }
 
 }

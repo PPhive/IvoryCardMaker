@@ -7,12 +7,14 @@ public class CardEntry : MonoBehaviour
     public BottomManager bottomText;
     public HPText hpText;
     public UpgradeText upgradeText;
+    public BaseChanger baseChanger;
+    public SpriteManager spriteManager;
+
     [SerializeField]
     public CardData currentCard;
 
     void Start()
     {
-        Refresh(currentCard);
     }
 
     void Update()
@@ -20,29 +22,33 @@ public class CardEntry : MonoBehaviour
         
     }
 
-    void Refresh(CardData cardData) 
+    public void Refresh(CardData cardData) 
     {
         hpText.Refresh(cardData.HP);
         upgradeText.Refresh(cardData.upgradeCost);
         bottomText.Refresh(cardData.name, cardData.abilityDatas);
+        baseChanger.changeBase(cardData.baseID);
+        spriteManager.ShowCharSprite(cardData.index);
     }
 }
 
 [System.Serializable]
 public class CardData
 {
+    public int index;
     public string name;
     public int HP;
     public string upgradeCost;
-    public Sprite sprite;
-    public List<AbilityData> abilityDatas;
+    public int baseID;
+    public List<AbilityData> abilityDatas = new List<AbilityData>();
 
     public void Clear() 
     {
+        index = 0;
         name = null;
         HP = 0;
         upgradeCost = null;
-        sprite = null;
+        baseID = 8;//white
         abilityDatas.Clear();
     }
 }
