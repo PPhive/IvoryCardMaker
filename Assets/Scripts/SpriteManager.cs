@@ -46,7 +46,7 @@ public class SpriteManager : MonoBehaviour
         else
         {
             Debug.LogWarning($"Sprite with ID {idString} not found.");
-            return null;
+            return defaultSprite;
         }
     }
 }

@@ -13,15 +13,6 @@ public class CardEntry : MonoBehaviour
     [SerializeField]
     public CardData currentCard;
 
-    void Start()
-    {
-    }
-
-    void Update()
-    {
-        
-    }
-
     public void Refresh(CardData cardData) 
     {
         hpText.Refresh(cardData.HP);

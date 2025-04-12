@@ -16,7 +16,6 @@ public class DataEntry : MonoBehaviour
     [SerializeField]
     int lastIndex = 0;
 
-
     [SerializeField]
     CardData thisCardData;
 
@@ -32,13 +31,24 @@ public class DataEntry : MonoBehaviour
 
     void Update()
     {
-        if(pointer < ExampleSheetLoader.Instance.sheetLength)
+        if (Input.GetKeyDown(KeyCode.Space))//Manual Screenshot
+        {
+            string path = Application.persistentDataPath + "/screenshot" + lastIndex + ".png";
+            //Debug.Log("Saved " + Application.persistentDataPath + "/screenshot" + lastIndex + ".png");
+            ScreenCapture.CaptureScreenshot(path);
+        }
+
+        if (pointer < ExampleSheetLoader.Instance.sheetLength)
         {
             sheetToData();
             cardEntry.Refresh(cardEntry.currentCard);
             string path = Application.persistentDataPath + "/screenshot" + lastIndex + ".png";
             //Debug.Log("Saved " + Application.persistentDataPath + "/screenshot" + lastIndex + ".png");
             ScreenCapture.CaptureScreenshot(path);
+        }
+        else 
+        {
+            
         }
     }
 
@@ -51,9 +61,26 @@ public class DataEntry : MonoBehaviour
             thisCardData = new CardData();
             thisCardData.index = pointerIndex;
             thisCardData.name = sheetLoader.CheckTile(pointer, 1);
-            thisCardData.HP = int.Parse(sheetLoader.CheckTile(pointer, 2));
+            try
+            {
+                thisCardData.HP = int.Parse(sheetLoader.CheckTile(pointer, 2));
+            }
+            catch 
+            {
+                thisCardData.HP = 20;
+                Debug.Log("invalid HP for chara" + thisCardData.index);
+            }
             thisCardData.upgradeCost = sheetLoader.CheckTile(pointer, 3);
-            thisCardData.baseID = int.Parse(sheetLoader.CheckTile(pointer,4));
+            try
+            {
+                thisCardData.baseID = int.Parse(sheetLoader.CheckTile(pointer, 4));
+            }
+            catch
+            {
+                thisCardData.baseID = 0;
+                Debug.Log("invalid baseID for chara" + thisCardData.index);
+            }
+
 
             for (int i = 0; i < 5; i++) 
             {

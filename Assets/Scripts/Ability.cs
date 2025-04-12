@@ -16,6 +16,7 @@ public class Ability : MonoBehaviour
         text = text.Replace("#À¶", "<sprite=2>");
         text = text.Replace("#°×", "<sprite=3>");
         text = text.Replace("#ºÚ", "<sprite=4>");
+        text = text.Replace("#²Ê", "<sprite=5>");
         return text;
     }
 

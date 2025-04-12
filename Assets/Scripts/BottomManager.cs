@@ -29,8 +29,6 @@ public class BottomManager : MonoBehaviour
             }
         }
 
-        //Debug.Log(abilitiesFromBelow.Count);
-
         float CurrentHeight = -4.66f - gapHeight;
         for (int i = 0; i < abilitiesFromBelow.Count; i++)
         {
