@@ -81,7 +81,11 @@ public class DataEntry : MonoBehaviour
                 Debug.Log("invalid baseID for chara" + thisCardData.index);
             }
 
+            thisCardData.authorName = sheetLoader.CheckTile(pointer, 8);
+            thisCardData.upgradeType = sheetLoader.CheckTile(pointer, 9);
 
+
+            //Inputs the abilites, this action also move the pointer downward so put every entry before this
             for (int i = 0; i < 5; i++) 
             {
                 int currentline = pointer + i;
@@ -109,6 +113,7 @@ public class DataEntry : MonoBehaviour
                 }
             }
 
+            //Pass on the entered data
             cardEntry.currentCard = thisCardData;
         }
     }

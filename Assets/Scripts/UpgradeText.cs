@@ -16,9 +16,16 @@ public class UpgradeText : MonoBehaviour
         return text;
     }
 
-    public void Refresh(string upgradeCost)
+    public void Refresh(string upgradeCost, string upgradeType)
     {
         upgradeCost = ReplaceIcons(upgradeCost);
-        TMPro.text = "升级" + upgradeCost;
+        if (upgradeType == "混色")
+        {
+            TMPro.text = "混色：" + upgradeCost;
+        }
+        else
+        {
+            TMPro.text = "提纯：" + upgradeCost;
+        }
     }
 }

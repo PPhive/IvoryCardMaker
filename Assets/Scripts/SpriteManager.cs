@@ -40,7 +40,7 @@ public class SpriteManager : MonoBehaviour
         string idString = id.ToString("D4"); // Formats the integer as a 4-digit string
         if (spriteDictionary.TryGetValue(idString, out Sprite sprite))
         {
-            Debug.Log(idString);
+            //Debug.Log(idString);
             return sprite;
         }
         else
