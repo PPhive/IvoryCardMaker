@@ -21,11 +21,11 @@ public class UpgradeText : MonoBehaviour
         upgradeCost = ReplaceIcons(upgradeCost);
         if (upgradeType == "混色")
         {
-            TMPro.text = "混色：" + upgradeCost;
+            TMPro.text = "混色" + upgradeCost;
         }
         else
         {
-            TMPro.text = "提纯：" + upgradeCost;
+            TMPro.text = "提纯" + upgradeCost;
         }
     }
 }
