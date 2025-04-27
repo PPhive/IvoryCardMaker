@@ -249,7 +249,7 @@ TextureImporter:
         width: 34
         height: 34
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -257,6 +257,69 @@ TextureImporter:
       bones: []
       spriteID: e9c232d6303178a4ca0d01bfe70da91e
       internalID: -1001859465
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mana_Green
+      rect:
+        serializedVersion: 2
+        x: 204
+        y: 0
+        width: 34
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 414fa00c27b2a724caa60326991b1d6d
+      internalID: 240677555
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mana_Orange
+      rect:
+        serializedVersion: 2
+        x: 238
+        y: 0
+        width: 34
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b7c2e508bc73f6a4dba03548d6b835be
+      internalID: 1549181800
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mana_Purple
+      rect:
+        serializedVersion: 2
+        x: 272
+        y: 0
+        width: 34
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 511ac878e5702ff41a8ebe4ebc0ca8ed
+      internalID: 270936817
       vertices: []
       indices: 
       edges: []
@@ -274,6 +337,9 @@ TextureImporter:
     nameFileIdTable:
       Mana_Black: 1482188285
       Mana_Blue: -1703040422
+      Mana_Green: 240677555
+      Mana_Orange: 1549181800
+      Mana_Purple: 270936817
       Mana_Red: -246407974
       Mana_White: 1482188285
       Mana_Wild: -1001859465

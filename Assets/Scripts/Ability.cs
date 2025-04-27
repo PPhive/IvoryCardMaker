@@ -9,17 +9,6 @@ public class Ability : MonoBehaviour
     public TextMeshPro abilityDescription;
     public AbilityBackDrop myBackDrop;
 
-    string ReplaceIcons(string text) 
-    {
-        text = text.Replace("#ºì", "<sprite=0>");
-        text = text.Replace("#»Æ", "<sprite=1>");
-        text = text.Replace("#À¶", "<sprite=2>");
-        text = text.Replace("#°×", "<sprite=3>");
-        text = text.Replace("#ºÚ", "<sprite=4>");
-        text = text.Replace("#²Ê", "<sprite=5>");
-        return text;
-    }
-
     public void Refresh(AbilityData myData) 
     {
         //Enter Data
@@ -34,8 +23,8 @@ public class Ability : MonoBehaviour
         }
         else 
         {
-            abilityName.text = ReplaceIcons(abilityName.text);
-            abilityDescription.text = ReplaceIcons(abilityDescription.text);
+            abilityName.text = PublicMethods.instance.ReplaceIcons(abilityName.text);
+            abilityDescription.text = PublicMethods.instance.ReplaceIcons(abilityDescription.text);
             abilityDescription.ForceMeshUpdate();
             myBackDrop.Refresh(abilityDescription.textInfo.lineCount);
         }
