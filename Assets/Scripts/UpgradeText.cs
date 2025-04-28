@@ -14,6 +14,10 @@ public class UpgradeText : MonoBehaviour
         {
             TMPro.text = "混色" + upgradeCost;
         }
+        else if (upgradeType == "中和")
+        {
+            TMPro.text = "中和" + upgradeCost;
+        }
         else
         {
             TMPro.text = "提纯" + upgradeCost;
