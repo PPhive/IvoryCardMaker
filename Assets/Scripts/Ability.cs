@@ -6,6 +6,7 @@ using TMPro;
 public class Ability : MonoBehaviour
 {
     public TextMeshPro abilityName;
+    public TextMeshPro abilityCost;
     public TextMeshPro abilityDescription;
     public AbilityBackDrop myBackDrop;
 
@@ -13,6 +14,7 @@ public class Ability : MonoBehaviour
     {
         //Enter Data
         abilityName.text = myData.AbilityName;
+        abilityCost.text = myData.AbilityCost;
         abilityDescription.text = myData.AbilityText;
 
         //If empty, shrink, else replace #ɫ with sprites, then tell backdrop to expand accordingly
@@ -24,6 +26,7 @@ public class Ability : MonoBehaviour
         else 
         {
             abilityName.text = PublicMethods.instance.ReplaceIcons(abilityName.text);
+            //abilityCost.text = PublicMethods.instance.ReplaceIcons(abilityCost.text);
             abilityDescription.text = PublicMethods.instance.ReplaceIcons(abilityDescription.text);
             abilityDescription.ForceMeshUpdate();
             myBackDrop.Refresh(abilityDescription.textInfo.lineCount);

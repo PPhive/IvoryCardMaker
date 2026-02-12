@@ -1,124 +1,225 @@
 id,Name,HP,Upgrade Cost,"Background
-ID(0-8)0赤1橙2黄3绿4青5蓝6紫7黑8白",Ability Name,Ability Description,Ability Cost,Author,"Upgrade
-Type"
-1,青色,25,#蓝#蓝#白,4,原色之力,游戏开始时，在卡组加入一张二级#蓝。,<固有><被动>,,提纯
-1,青色,25,#蓝#蓝#白,4,冰冻射线,对敌方单体造成3点伤害，弃置1张目标暂存区的牌。 ,#蓝#蓝#白,,提纯
-2,洋红,25,#红#红#白,0,原色之力,游戏开始时，在卡组加入一张二级#红。,<固有><被动>,,提纯
-2,洋红,25,#红#红#白,0,念动冲击,对敌方全体造成2点伤害。,#红#红#白,,提纯
-3,黄色,25,#黄#黄#白,2,原色之力,游戏开始时，在卡组加入一张二级#黄。,<固有><被动>,,提纯
-3,黄色,25,#黄#黄#白,2,静电,造成2点伤害，你暂存区的每张#黄牌使该伤害+1。,#黄#黄#白,,提纯
-4,红色,25,#红#黄,0,原色之力-光,一回合一次，你的一张的#红和#黄可以相互替代使用。,<固有><被动>,,提纯
-4,红色,25,#红#黄,0,怒焰,造成3点伤害。若[#红#红]：对红色造成2点伤害，对敌方全体角色造成1伤害。,#红#红,,提纯
-5,绿色,25,#蓝#黄,3,原色之力-光,一回合一次，你的一张的#蓝和#黄可以相互替代使用。,<固有><被动>,,混色
-5,绿色,25,#蓝#黄,3,植物滋长, 造成2点伤害。若[#蓝#黄]：一回合一次，抽一张牌。,#蓝#黄,,混色
-6,蓝色,25,#蓝#红,5,原色之力-光,一回合一次，你的一张的#蓝和#红可以相互替代使用。,<固有><被动>,,提纯
-6,蓝色,25,#蓝#红,5,水龙弹,对单体造成3点伤害。若[#蓝#蓝]：对另一个目标造成3点伤害。,#蓝#蓝,,提纯
-7,黑色,30,,7,回来再写捏,回来再写捏,回来再写捏,,提纯
-7,黑色,30,,7,回来再写捏,回来再写捏,回来再写捏,,提纯
-7,黑色,30,,7,回来再写捏,回来再写捏,回来再写捏,,提纯
-8,白色,25,#蓝#红#黄#白,8,万用调色,白色升级时会将万用牌加入弃牌堆。,<被动>,,中和
-8,白色,25,#蓝#红#黄#白,8,触手鞭打,伤害4，攻击两个目标。释放该技能时每张万用卡可免除1点费用。,#蓝#黄#红#白,,中和
-9,柠檬黄,25,#黄#黄#黄,2,“我要当业绩冠军！”,柠檬黄使用技能时的盈余费用可以用来释放下一次技能，但无法使用万用牌。,<固有><被动>,,提纯
-9,柠檬黄,25,#黄#黄#黄,2,狂雷奔,一回合一次，造成3点伤害。,#黄,,提纯
-9,柠檬黄,25,#黄#黄#黄,2,急速翻滚,满足暂存区条件时，解除技能一回合一次的限制。,[#黄#黄],,提纯
-10,肉色,30,#红#黄#白,1,消化能源,"肉色失去暂存区的每点颜料时产生不同效果，每组通过升级依次解锁：
-·#蓝抽一张牌，#黄对前线造成3点伤害。
-·#红肉色恢复2点体力，#彩以上全部。
-·#黑或非颜料牌：失去3点体力。",<固有>,,提纯
-10,肉色,30,#红#黄#白,1,“开吃！”,肉色可以继续升级。回合结束时，删除暂存区的一张牌。,<被动>,,提纯
-11,土黄,28,#红#黄,2,挥霍,将所有手牌送入弃牌堆，抽取相同数量。,#黄,,提纯
-11,土黄,28,#红#黄,2,打赏,造成3点伤害。你可以选择将技能的消耗替换目标暂存区的牌。,#黄#黄 或 #红#黄,,提纯
-12,粉红,25,#红#黄,0,轮唱,每回合一次，将任意张牌弃牌后重新抽取相同数量。,[#黄]<固有>,,提纯
-12,粉红,25,#红#黄,0,音波,造成3点伤害，[#红#红]一名队友获得2点治疗。,#红#红,,提纯
-13,银色,25,#蓝#红#黄,8,先见之明,回合开始时，你可以观看牌堆顶的三张牌，并弃置其中任意张牌。,<固有>,,中和
-13,银色,25,#蓝#红#黄,8,秉轴持均,每回合一次，抽3张牌。每抽到1张#蓝就造成2点伤害。,#蓝#黄,,中和
-13,银色,20,#蓝#红#黄,8,物料复用,一回合一次，从弃牌堆中选一张牌抽取。,#白,,中和
-14,普鲁士蓝,20,#蓝#蓝#红,5,“还请点赞投币收藏！”,一回合一次，队友释放非被动技能消耗费用后，你可以暂存其中一张牌。,<固有>,,提纯
-14,普鲁士蓝,20,#蓝#蓝#红,5,削弱空间,对一个目标造成3点伤害。生成一张横置#蓝与单位暂存区。拥有该标记的单位下次造成伤害-2，随后弃置标记。,#蓝#蓝#蓝,,提纯
-14,普鲁士蓝,20,#蓝#蓝#红,5,“不可以伤害深红…”,对一个目标造成28点伤害，删除对手或自己牌库中所有#黄。,4#蓝4#红,,提纯
-15,深红,20,#蓝#红#红,0,“还请点赞投币收藏！”,一回合一次，队友释放非被动技能消耗费用后，你可以暂存其中一张牌。,<固有>,,提纯
-15,深红,20,#蓝#红#红,0,“主人，请喝茶~”,一回合一次，将牌堆顶的三张牌暂存于一名友方单位。根据每张牌的颜色产生不同效果：     #蓝抽一张牌，#红治疗3，#黄深红受到3点伤害。,#红#红,,提纯
-16,橙色,28,#红#黄,1,间色之力,使用#橙释放技能时，可以将其视为费用为2的#红或#黄。,<固有><被动>,,混色
-16,橙色,28,#红#黄,1,刺拳,对前排敌人造成1点伤害2次。,#红#红,,混色
-16,橙色,28,#红#黄,1,正义执行！,本角色造成的伤害+1，对HP高于你的角色造成的伤害再+1。,<被动>,,混色
-17,紫色,25,#红#蓝,6,间色之力,使用#紫释放技能时，可以将其视为费用为2的#红或#黄。,<固有><被动>,,混色
-17,紫色,25,#红#蓝,6,神秘,你多抽一张牌。放弃抽牌时，本回合紫色视为处于后排。,<被动>,,混色
-17,紫色,25,#红#蓝,6,"""No.1""",选择一个目标造成伤害或治疗。每使用了一张独特的颜料牌，本技能就造成2/1点伤害/治疗。,#蓝#红#白#白,,混色
-18,黄白游,20,#黄#黄#黄,2,黄氏集团情报网,友方暂存区的#黄可视为你暂存区的#黄。你受到的伤害不超过4。,<固有><被动>,,提纯
-18,黄白游,20,#黄#黄#黄,2,横刀,对一个角色造成4点伤害。,#黄#黄[#黄#黄],,提纯
-18,黄白游,20,#黄#黄#黄,2,暗枪,一回合一次，弃置暂存区的两张牌以发动，对一个角色造成4点伤害。,,,提纯
-19,靛蓝,25,#蓝#蓝#蓝,5,Ars·Magica,回来再写捏,#蓝#蓝#蓝,,提纯
-50,蓝铜,20,#蓝#蓝#红,5,原色之力-遗物,一回合一次，你的#红/#黄/#蓝可以相互替代使用。该牌进入弃牌堆后，转化为原本对应的同级同色的“不可名状”牌。,<固有><被动>,Phive,提纯
-50,蓝铜,20,#蓝#蓝#红,5,重构,对一个角色造成1d6点伤害/治疗。如果任意骰子掷出1，最终出目视为0。,#蓝#红/#蓝#蓝,Phive,提纯
-50,蓝铜,20,#蓝#蓝#红,5,熵能,"若[全为同色]：重构出目永远为5。
-若[全为异色]：重构掷骰改为2d6。",[#白#白]<被动>,Phive,提纯
-51,江绿,25,#蓝#蓝#黄,3,血怒,受到至少3点伤害后，自身暂置一张1级#红；你的暂存区无法被自身以外技能修改。,<固有><被动>,MakuuP,混色
-51,江绿,25,#蓝#蓝#黄,3,血杀,对一个目标造成1点伤害，你每有一个被动技能伤害便加+1，随后你回复2HP。用#红发动时，你摸一张牌。,#蓝#黄,MakuuP,混色
-51,江绿,25,#蓝#蓝#黄,3,血尽,[3#红]一局一次，HP小于等于10时，你弃置你的暂存区，血杀从此也可用#红#白发动。,<被动>,MakuuP,混色
-51,江绿,25,#蓝#蓝#黄,3,激昂,你打牌的时候情绪可以很激昂。,<被动>,MakuuP,混色
-52,绿黄,25,#蓝#黄,3,滋养,每次抽到#绿或#黄时，我方前排恢复2点HP，每回合最多恢复4点HP。,<被动>,brotbal,混色
-52,绿黄,25,#蓝#黄,3,铲土,造成2点伤害，你可以将一张手牌丢弃到对手弃牌堆。,#蓝#黄,brotbal,混色
-52,绿黄,25,#蓝#黄,3,播种,一回合一次，删除用于施放的牌，然后将一张间色颜料，或2费原色颜料加入弃牌堆。,#白,brotbal,混色
-53,古金,25,#黄#黄,2,这可都是宝贝,本角色可以主动暂存#黑，若如此做你抽一张牌。,<固有><被动>,Phive,提纯
-53,古金,25,#黄#黄,2,铁镐,造成2点伤害，将一张#黑置于双方抽牌堆顶。,#黄#黄#白,Phive,提纯
-53,古金,25,#黄#黄,2,淘金,删除作为费用的#黑，将一张3级#黄置入手牌。,#黑#黑#黑,Phive,提纯
-54,荷兰橙,28,#红#黄#黄,1,至高之术,回合结束时，对敌方前排角色造成1点伤害。,<被动>,Jess,混色
-54,荷兰橙,28,#红#黄#黄,1,力量强化,本回合我方下一个技能造成的伤害+2。,#红#黄,Jess,混色
-54,荷兰橙,28,#红#黄#黄,1,力量强化II,"替换“力量强化”，修改效果如下：
- - 技能造成的伤害从+2改为+3。",#红#黄,Jess,混色
-54,荷兰橙,28,#红#黄#黄,1,力量强化III,"替换“力量强化II”，修改效果如下：
- - 技能造成的伤害从+3改为+4。",#红#黄,Jess,混色
-55,紫绀色,20,#蓝#红,6,潜行,本角色处于后排时无法被选为目标。,<被动>,Phive,混色
-55,紫绀色,20,#蓝#红,6,背刺,对一个目标造成2点伤害，每回合首次使用则伤害+2。,#蓝#蓝,Phive,混色
-55,紫绀色,20,#蓝#红,6,杀机,本角色对后排角色造成伤害时，翻开牌堆顶，若为#红，那伤害+4，随后弃置牌堆顶。,[#红#红]<被动>,Phive,混色
-56,铜锈绿,25,#蓝#蓝#黄,4,氧化侵蚀,本角色可以将任何牌当做#白来使用技能。回合开始时受到2点伤害，然后将一张#黑置于弃牌堆。,<固有><被动>,柿子,混色
-56,铜锈绿,25,#蓝#蓝#黄,4,RGB高速连射,对一个目标造成1点伤害，本回合不再能使用其他非被动技能。,#白/#黑,柿子,混色
-56,铜锈绿,25,#蓝#蓝#黄,4,高能脉冲剑刃,对一个目标造成5点伤害。,#蓝#黄#白,柿子,混色
-57,谢勒绿,20,#蓝#蓝#黄,3,幽息咒术,你可以受到1点伤害来将#黑视为#黄/#蓝使用。你可以暂存#黑。,<固有><被动>,柿子,混色
-57,谢勒绿,20,#蓝#蓝#黄,3,溃毒刻印,将一张#黑置于你或对手抽牌堆顶，[#蓝#黄]对手抽到#黑时需展示并使前排角色受到3点伤害，然后抽一张牌。,#蓝#黄,柿子,混色
-57,谢勒绿,20,#蓝#蓝#黄,3,幻域采撷,每当你抽到#黑时，抽一张牌。,<被动>,柿子,混色
-58,大红,25,#红#红#黄,0,热血！,回合开始时，你可以承受2点伤害，来让下一次升级或非被动技能的费用减少#红/#黄。,<固有><被动>,Phive,提纯
-58,大红,25,#红#红#黄,0,勇气！,你造成的伤害+1HP。[#红#红]回合开始时，对敌方前排角色造成1点伤害。,<被动>,Phive,提纯
-58,大红,25,#红#红#黄,0,大合体！！！,你成为另一角色的暂置牌，且无法被取下。他的HP上限和HP增加你的对应数值，并获得你的其他已解锁的被动。,#红#红#黄,Phive,提纯
-59,蓝冰麦,25,#蓝#蓝#蓝,5,雪球,对一个目标造成2点伤害，敌方的手牌若多于4张，则敌方需支付#白。,#蓝#白<固有>,阿玖,提纯
-59,蓝冰麦,25,#蓝#蓝#蓝,5,雪崩,对自身和敌方全部角色造成弃牌堆里#蓝总值的伤害。,#蓝#蓝#蓝#白#白,阿玖,提纯
-59,蓝冰麦,25,#蓝#蓝#蓝,5,寒流,一回合一次，敌方对将我方角色造成伤害时，那技能的伤害-2。,[#蓝#蓝#蓝]<被动>,阿玖,提纯
-60,锈红,20,#红#红#红,0,连段,本角色发动非被动技能后，本角色的下一个技能造成的伤害+1。,<固有><被动>,Phive,提纯
-60,锈红,20,#红#红#红,0,刺拳,对前排敌人造成1点伤害2次。,#红#红,Phive,提纯
-60,锈红,20,#红#红#红,0,一瞬千击,对前排敌人造成1点伤害7次，,[#红#红#红]#红#红#白,Phive,提纯
-61,龙蒿绿,26,#蓝#黄#黄,3,至高之术,回合结束时，对敌方前排角色造成1点伤害。,<固有><被动>,Jess,混色
-61,龙蒿绿,26,#蓝#黄#黄,3,烈火浸淬,一回合一次，本回合我方角色的下一个技能造成伤害时，会为目标暂存#红。回合结束时对所有暂存了#红的角色造成2点伤害。,#蓝#黄,Jess,混色
-61,龙蒿绿,26,#蓝#黄#黄,3,烈火浸淬II,"替换""烈火浸淬""，为目标#暂存的#红改为横置，伤害改为3点。",#蓝#黄,Jess,混色
-62,淡青白,25,#蓝#红#黄,8,"""悉听ta之所言！""","本角色升级、施放技能时若使用过""不可名状""牌，恢复2点HP。",<固有><被动>,玉米,提纯
-62,淡青白,25,#蓝#红#黄,8,"""降临前夜！""","将""不可名状""的#蓝#红#黄共三张，置于你或对手的抽牌堆顶。",#蓝#红#黄,玉米,提纯
-62,淡青白,25,#蓝#红#黄,8,收割斩,对2个目标造成2点伤害，施放时每使用一张“不可名状”牌，伤害+1。,#蓝#红#黄,玉米,提纯
-63,浅鼠尾草,25,#蓝#黄#黄,3,护卫,一回合一次，其他角色承受伤害时，你可以代替其承受。,<被动>,Phive,提纯
-63,浅鼠尾草,25,#蓝#黄#黄,3,惩击,对一个目标造成3点伤害。[#蓝]回复我方全体角色1HP。,#黄#白#白,Phive,提纯
-63,浅鼠尾草,25,#蓝#黄#黄,3,耀目,你回复HP时，对敌方全部角色造成1点伤害。,[#黄#黄]<被动>,Phive,提纯
-64,锦葵紫,25,#蓝#红#红,6,至高之术,回合结束时，对敌方前排角色造成1点伤害。,<固有><被动>,Phive,混色
-64,锦葵紫,25,#蓝#红#红,6,冰霜之缚,本回合我方下一个技能造成伤害时，若敌方的手牌大于4，使对方选择一张卡丢弃。此伤害对前排伤害+1。,#蓝#红,Phive,混色
-64,锦葵紫,25,#蓝#红#红,6,冰霜之缚II,"替换“冰霜之缚”，修改效果如下：
- - 触发弃牌的手牌条件从>4改为>3；
- - 前排增伤从+1改为+2；",#蓝#红,Phive,混色
-65,回来再写捏,25,回来再写捏,0,回来再写捏,回来再写捏,回来再写捏,回来再写捏,提纯
-65,回来再写捏,25,回来再写捏,0,回来再写捏,回来再写捏,回来再写捏,回来再写捏,提纯
-65,回来再写捏,25,回来再写捏,0,回来再写捏,回来再写捏,回来再写捏,回来再写捏,提纯
-66,锰蓝,30,#蓝#蓝#红,5,井井有条,你每回合可以暂置两张牌。,<固有><被动>,Phive,提纯
-66,锰蓝,30,#蓝#蓝#红,5,镭射,对一个目标造成2点伤害，并为其暂存一张横置的#红。,#蓝#白,Phive,提纯
-66,锰蓝,30,#蓝#蓝#红,5,热导飞弹,对所有暂存了#红的敌方单位造成3点伤害。,#蓝#蓝#白,Phive,提纯
-67,铁灰,20,#蓝#红#黄,7,乐意效劳,一回合一次，成为前排。,<固有>,Phive,提纯
-67,铁灰,20,#蓝#红#黄,7,多谢惠顾,对敌方前排造成2点伤害，自身回复1HP。,#蓝#黄,Phive,提纯
-67,铁灰,20,#蓝#红#黄,7,磁力拖拽,一回合一次，对一个目标造成1点伤害，使其成为前排角色。,#蓝/#红,Phive,提纯
-68,弱绿色,25,#蓝#黄,3,教学大纲,一回合一次，从抽牌堆中选择一张牌加入手卡。,#蓝<固有>,玉米,混色
-68,弱绿色,25,#蓝#黄,3,因材施教,让一名我方角色升级1次。,#蓝#黄#蓝#黄,玉米,混色
-68,弱绿色,25,#蓝#黄,3,藤曼鞭打,宣言一个颜色，让对方抽一张牌并展示，若宣言正确，则弃置那张牌并使对方所有角色受到4点伤害，否则改为1点伤害。,#蓝#白,玉米,混色
-69,蓝铜,20,#蓝#蓝#红,5,原色之力-遗物,一回合一次，你的#红/#黄/#蓝可以相互替代使用。该牌进入弃牌堆后，转化为原本对应的同级同色的“不可名状”牌。,<固有><被动>,Phive,提纯
-69,蓝铜,20,#蓝#蓝#红,5,重构,对一个角色造成1d6点伤害/治疗，1视为0。,#蓝#红/#蓝#蓝,Phive,提纯
-69,蓝铜,20,#蓝#蓝#红,5,熵能,"若[仅两种颜色]：重构不为0时，额外造成1点伤害/治疗。
-若[三种颜色]：重构不为0时，额外造成2点伤害/治疗。",<被动>,Phive,提纯
-70,断肠,22,#红#红#黄,2,冰雪弱抗/延缓毒性,受到蓝色卡牌攻击伤害+1/对一个目标横置#黄并使受到的伤害+1（死亡时更换目标）,<固有><被动>,番茄,提纯
-70,断肠,22,#红#红#黄,2,剧痛的治愈,使一任意角色生成一张铅毒牌存入暂存区，并恢复3点HP，若暂存区已拥有则额外恢复两点,#黄#黄#红 [#红],番茄,提纯
-70,断肠,22,#红#红#黄,2,宰割生命,对两个目标造成5点伤害，若目标hp低于6则斩杀目标，自身存有三张以上毒牌斩杀限变为12，随后抽两张牌, #黄#黄#红 [至少2张毒牌],番茄,提纯
-77,蓝玫瑰,25,#蓝#红#白,5,创生之花,每当玩家在增加新的牌进入游戏时，抽一张牌，蓝玫瑰获得2点治疗。,<固有><被动>,SynthRose†永远缅怀,提纯
-77,蓝玫瑰,25,#蓝#红#白,5,现实编码,造成3点伤害。若费用为同色颜料：将2级的同色颜料加入弃牌堆。若费用为两种颜料：将混合后的间色颜料加入弃牌堆。,#白#白#白,SynthRose†永远缅怀,提纯
-77,蓝玫瑰,25,#蓝#红#白,5,虚数幻现,随机从双方抽牌堆，弃牌堆，手牌，各展示一张牌。选择以下一项：1对敌全体造成点数总和的伤害。2对我单体造成点数总和的治疗。,#蓝#蓝#白,SynthRose†永远缅怀,提纯
+ID(0-8) 0Red 1Orange 2Yellow 3Green 4Cyan 5Blue 6Purple 7Black 8White",Ability Name,Ability Description,Ability Cost,"Author
+(If it's empty then the character is vanilla)","Upgrade
+Type","Upgrade
+Reward"
+1,Cyan,25,#蓝#蓝#白,4,Primary Color,Gets two cards upon upgrade.,<Innate><Passive>,,Refine,lvl2#蓝
+1,Cyan,25,#蓝#蓝#白,4,Frost Beam,"Deal 3 dmg to an enemy, discard 1 of their loaded cards.",#蓝#蓝#白,,Refine,lvl2#蓝
+2,Magenta,25,#红#红#白,0,Primary Color,Gets two cards upon upgrade.,<Innate><Passive>,,Refine,lvl2#红
+2,Magenta,25,#红#红#白,0,Energy Bolt,Deal 3 dmg to an enemy.,#红#白,,Refine,lvl2#红
+3,Yellow,25,#黄#黄#白,2,Primary Color,Gets two cards upon upgrade.,<Innate><Passive>,,Refine,lvl2#黄
+3,Yellow,25,#黄#黄#白,2,Spark Surge,Deal 2 damage to an enemy. +2 Dmg and draw 1 on the first use each turn.,#黄#白,,Refine,lvl2#黄
+4,Red,25,#红#黄,0,Primary Light-R,"Once per turn, you may use a #红 or #黄 card from hand interchangably.",<Innate><Passive>,,Refine,lvl2#红/#黄
+4,Red,25,#红#黄,0,Combust,"Deal 3 dmg an enemy.
+If [#红#红]: Also deal 2 dmg to self and enemy front-row.",#红#红,,Refine,lvl2#红/#黄
+5,Green,25,#蓝#黄,3,Primary Light-G,"Once per turn, you may use a #蓝 or #黄 card from hand interchangably.",<Innate><Passive>,,Mix,#绿
+5,Green,25,#蓝#黄,3,Leeching Roots,"Deal 2 dmg to enemy front-row.
+If [#蓝#黄]: Heal self by 2.",#蓝#黄,,Mix,#绿
+6,Blue,25,#蓝#红,5,Primary Light-B,"Once per turn, you may use a #蓝 or #红 card from hand interchangably.",<Innate><Passive>,,Refine,#蓝
+6,Blue,25,#蓝#红,5,Hydro Blast,"Deal 3 dmg to an enemy.
+If [#蓝#蓝]: Then you may target one more unit.",#蓝#蓝,,Refine,#蓝
+7,Black,20,#蓝#红#黄,7,Gloom,"When this unit upgrades or uses an ability, put a #黑 card in both player's discard pile.",<Innate><Passive>,,Dilute,#彩
+7,Black,20,#蓝#红#黄,7,Void,Deal 4 dmg to an enemy.,#黑#白#白,,Dilute,#彩
+7,Black,20,#蓝#红#黄,7,Dark Mending,Heal 1 whenever a #黑 card enters your discard pile.,<Passive>,,Dilute,#彩
+8,White,25,#蓝#红#黄,8,Universal,"If an ally uses an ability with #彩 cards, that ability deals +1 dmg.",<Innate><Passive>,,Dilute,#彩
+8,White,25,#蓝#红#黄,8,Light Whip,Deal 3 dmg to two enemies. ,#蓝#黄#红#白,,Dilute,#彩
+9,Lemon,20,#黄#黄#白,2,Energetic,"Once per turn, you may treat a lvl1 #黄 card from hand as lvl2.",<Innate><Passive>,,Refine,lvl2#黄
+9,Lemon,20,#黄#黄#白,2,Blitz,"Once per turn, Deal 3 dmg to an enemy.",#黄,,Refine,lvl2#黄
+9,Lemon,20,#黄#黄#白,2,Double Zap,"Once per turn, Deal 2 dmg twice to an enemy.",#黄#白,,Refine,lvl2#黄
+10,Nude,30,#红#黄#白,1,All You Can Eat,This unit can load any card from hand.,<Innate>,,Dilute,#彩
+10,Nude,30,#红#黄#白,1,Headbutt,"Deal 2 dmg to an enemy and self.
+If [#白#白]: +2 dmg to opponent.",#红#黄/#彩,,Dilute,#彩
+10,Nude,30,#红#黄#白,1,Munch,"Once per turn, trash a loaded card, heal self by 4.",[#白],,Dilute,#彩
+11,Umber,28,#红#黄,2,Fortune,"Once per turn, you may add and load a #黄 card to this unit.",<Innate><Passive>,,Refine,lvl2#红/#黄
+11,Umber,28,#红#黄,2,Tipping,"Deal 3 dmg to target, you may place one of cards used to cast this ability on top of oppnent's deck.",#黄#黄#白,,Refine,lvl2#红/#黄
+12,Pink,20,#红#黄#白,0,Sing-along,"Once per turn, reduces an ally's ability or upgrade cost by #白.",[#黄]<Innate><Passive>,,Refine,lvl2#红/#黄
+12,Pink,20,#红#黄#白,0,Magical Tune,"Deal 3 dmg to target.
+If [#红#红]: First use of this ability each turn also heals 2 for an ally.",#红#红#白,,Refine,lvl2#红/#黄
+13,Silver,20,#蓝#红#黄,8,Meditate,"Once per turn, draw 2 and discard 2.",<Innate>,,Dilute,#彩
+13,Silver,20,#蓝#红#黄,8,Gust,Deal 2 dmg to all enemies.,#蓝#蓝#白,Phive,Dilute,#彩
+13,Silver,20,#蓝#红#黄,8,Recycle,"Once per turn, put a card from your discard pile into your hand.",#白,,Dilute,#彩
+14,Prussian Blue,20,#蓝#蓝#红,5,Thrifting,"Once per turn, when another ally used a non-passive ability, you may load one of its cost to this unit.",<Innate>,,Refine,lvl2#蓝/#红
+14,Prussian Blue,20,#蓝#蓝#红,5,Frostbite,Deal 2 dmg to an enemy. dmg +2 if they have no loaded cards that aren't untapped and upward facing.,#蓝#蓝,,Refine,lvl2#蓝/#红
+14,Prussian Blue,20,#蓝#蓝#红,5,Fateful Vengeance,"Deal 28 dmg to an enemy, you may trash every #黄 in your deck and discard pile.", 5#蓝5#红,,Refine,lvl2#蓝/#红
+15,Crimson,20,#蓝#红#红,0,Sharing,"Once per turn, take a loaded card and load it to another ally.",<Innate>,,Refine,lvl2#蓝/#红
+15,Crimson,20,#蓝#红#红,0,Content Creation,"Once per turn, discard your loaded cards, then load 3 cards from your deck.
+If [#蓝]: Draw 1.
+If [#红]: Heal 2 for an ally.
+If [#黄]: Take 3 dmg.",#红#红,,Refine,lvl2#蓝/#红
+15,Crimson,20,#蓝#红#红,0,Muting Glyph,"Once per turn, deal 2 dmg to target, return one of their loaded cards back to their player's hand.",#红#白,,Refine,lvl2#蓝/#红
+16,Orange,25,#红#黄,1,Hotheaded,"If this unit used an #橙 card, take 2 dmg and draw 1.",<Innate><Passive>,,Mix,#橙
+16,Orange,25,#红#黄,1,Jab,Deal 1 dmg twice to enemy front-row.,#白#白,,Mix,#橙
+16,Orange,25,#红#黄,1,Justice Served,"For this turn, deal +1 dmg.",#红#黄,,Mix,#橙
+17,Purple,20,#红#蓝,6,Improvisation,"Once per turn, load the top card on deck to an ally.",#蓝/#红<Innate>,,Mix,#紫
+17,Purple,20,#红#蓝,6,Rhapsody,"Deal 2 damage to a target, +1 damage for each unique loaded card.",#红#蓝#白,,Mix,#紫
+17,Purple,20,#红#蓝,6,Encore,"Once per turn, return an ally's loaded cards back to hand.",#白,,Mix,#紫
+18,Pale Yellow,20,#黄#黄#白,2,Corpo Intel,"#黄 cards loaded by allies can be treated as loaded by this unit.
+Won't take more than 4 dmg per instance. ",<Innate><Passive>,,Refine,lvl2#黄
+18,Pale Yellow,20,#黄#黄#白,2,Assassinate,Deal 5 dmg to an enemy.,#黄#黄[#黄#黄],,Refine,lvl2#黄
+18,Pale Yellow,20,#黄#黄#白,2,Hidden Gun,"Once per turn, discard 2 loaded cards, deal 4 dmg to an enemy.",[Two cards],,Refine,lvl2#黄
+19,Indigo,20,#蓝#蓝#蓝,5,Counterspell,"Once per turn, pick a target, tap/untap one of their loaded card.",<Innate>#蓝,,Refine,lvl2#蓝
+19,Indigo,20,#蓝#蓝#蓝,5,Mana Flux,"Deal 2 dmg to an enemy. Trash cards used to cast this ability, add a lvl3 #蓝 into discard pile.",#蓝#蓝#白,,Refine,lvl2#蓝
+19,Indigo,20,#蓝#蓝#蓝,5,Hyper Beam,Deal 10 dmg to an enemy.,#蓝#蓝#蓝#蓝#蓝,,Refine,lvl2#蓝
+20,Tangerine,20,#红#黄,1,Make a Wish!,"Once per turn, you guess a color and display the top of your deck, take the card into hand if you guessed right, or else, discard it.",<Innate><Passive>,,Mix,#橙
+20,Tangerine,20,#红#黄,1,Empower-I,"For this turn, the next ally ability does +2 dmg.",#红#黄,,Mix,#橙
+20,Tangerine,20,#红#黄,1,Blitz,"Once per turn, Deal 3 dmg to an enemy.",#黄,,Refine,#橙
+21,Brown,25,#红#黄#白,1,Stat Stick,"Before your first turn, increase an ally's current and max HP by 5.",<Innate><Passive>,Phive,Refine,lvl2#红/#黄
+21,Brown,25,#红#黄#白,1,Unga Bunga,Deal 4 dmg to enemy front-row.,#红#红#白/#黄#黄#白,Phive,Refine,lvl2#红/#黄
+22,Teal,20,#蓝#蓝#黄,4,Clean Up,"Once per turn. Trash the cost, draw 1.",#白<Innate>,Phive,Refine,lvl2#蓝/#黄
+22,Teal,20,#蓝#蓝#黄,4,Gust,Deal 2 dmg to all enemies.,#蓝#蓝#白,Phive,Refine,lvl2#蓝/#黄
+23,Coffee,20,#红#黄,1,Caffeine,"Once per turn, allow an allie to use their once per turn ability twice.",[#红#黄#黄]<passive>,Phive,Mix,#橙
+23,Coffee,20,#红#黄,1,Nut Bomb,"Once per turn, deal 2 dmg to an enemy, deal 1 to other enemies.",#红#黄,Phive,Mix,#橙
+23,Coffee,20,#红#黄,1,Boost,"Once per turn, Draw 2.",#红#黄,Phive,Mix,#橙
+24,Plaster,25,#红#黄#蓝,8,Rock Sling,Deal 2 dmg to an enemy.,<Innate>#白#白,Phive,Dilute,#彩
+24,Plaster,25,#红#黄#蓝,8,Cast Molding,"Once per turn, trash the cost, show another card from your hand, then add a copy of it into your hand.",#彩,Phive,Dilute,#彩
+25,Clay,25,#红#黄,1,Rock Sling,Deal 2 dmg to an enemy.,<Innate>#白#白,Phive,Refine,lvl2#红/#黄
+25,Clay,25,#红#黄,1,Pot,Once per turn. Load the cost to an ally.,#白,Phive,Refine,lvl2#红/#黄
+25,Clay,25,#红#黄,1,Pont du Gard,All allie's load capacity +1. Effects remain when this unit is defeated.,<Passive>,Phive,Refine,lvl2#红/#黄
+26,Ultramarine,25,#蓝#蓝#红,5,Armored,"This unit takes -1 dmg, down to 1.",<Innate><Passive>,Phive,Refine,lvl2#蓝/#红
+26,Ultramarine,25,#蓝#蓝#红,5,Saw Saber,"Deal 3 dmg to enemy front-row, +2 dmg if their HP was above 15 before hit.",#蓝#蓝#白,Phive,Refine,lvl2#蓝/#红
+27,Saffron,20,#红#黄#黄,1,Meditate,"Once per turn, draw 2 and discard 2.",<Innate>,Phive,Refine,lvl2#红/#黄
+27,Saffron,20,#红#黄#黄,1,Chakram,"Everytime you shuffle, deal 2 dmg to all ememies",[#红#红#黄#黄]<Passive>,Phive,Refine,lvl2#红/#黄
+28,448c,30,#蓝#黄,3,Choose Life,"Once per turn, deal 2 dmg to all units.",#白<Innate>,Phive,Mix,#绿
+28,448c,30,#蓝#黄,3,Sitcom Laugh,"Once per turn, when a unit from either side is defeated, draw 2.",<Passive>,Phive,Mix,#绿
+29,Vanta Black,20,#蓝#红#黄,7,Stealthy,"Unless there are no allies left, this unit can't be targeted in the back-row.",<Innate><Passive>,Phive,中和,#彩
+29,Vanta Black,20,#蓝#红#黄,7,Shuriken,"Deal 2 dmg to an enemy, costs #红#黄 less when used from back-row.",#红#黄#白,Phive,中和,#彩
+29,Vanta Black,20,#蓝#红#黄,7,Musou,"Once per turn, add two #黑 cards into your hand.",#白,Phive,中和,#彩
+50,Azurite,20,#蓝#蓝#红,5,The Prism,"Before draw phase, load the top of your deck and take 1 dmg.",<Innate><Passive>,Phive,Refine,lvl2#蓝/#红
+50,Azurite,20,#蓝#蓝#红,5,Reshape,"Once per turn, deal 1d6 dmg/heal to a target. Set final outcome to 0 if any 1 got rolled.",#蓝#白/#红#白,Phive,Refine,lvl2#蓝/#红
+50,Azurite,20,#蓝#蓝#红,5,Entropy,"Alters ""The Prism"" and ""Reshape""
+If [Loaded cards are identical]: Draw instead of load. Dices always roll 4. 
+If [Loaded cards are unique]: Uses 2d6, and deals equal dmg to self.",[Three cards]<Passive>,Phive,Refine,lvl2#蓝/#红
+51,Jadeite,25,#蓝#蓝#黄,3,Blood Rage,"This unit cannot load from hand. Upon taking a minimum of 3 dmg, add and load a #红 card if there's room.",<Innate><Passive>,MakuuP,Mix,#绿
+51,Jadeite,25,#蓝#蓝#黄,3,Blood Rend,"Deal 1 dmg to an enemy, heal self by 1. +1 dmg for every passive ability you have. Draw 1 when used with #红.",#蓝#黄,MakuuP,Mix,#绿
+51,Jadeite,25,#蓝#蓝#黄,3,Blood Raze,"If [#红#红#红]: Once your HP falls below 11 for the first time, you may use ""Blood Rend"" with #红#白 from then on.",<Passive>,MakuuP,Mix,#绿
+51,Jadeite,25,#蓝#蓝#黄,3,Fervent,"You may now play cards fervently—shout your abilities out, jump around etc.",<Passive>,MakuuP,Mix,#绿
+52,Chartreuse,25,#蓝#黄#白,3,Nurish,"Once per turn, put the cost back on top of your deck, heal 2 for ally front-row.",#白<Innate>,brotbal,Mix,#绿
+52,Chartreuse,25,#蓝#黄#白,3,Shovel,"Deal 2 dmg to an enemy, you may move the top card of your deck to your oppnent's.",#蓝#黄,brotbal,Mix,#绿
+52,Chartreuse,25,#蓝#黄#白,3,Gardening,"Once per turn, trash the cost, then add an ally's upgrade cost into your discard pile.",#白,brotbal,Mix,#绿
+53,Old Gold,25,#黄#黄,2,Mine,"This character can load #黑 cards. When you do so, draw 1.",<Innate><Passive>,Phive,Refine,lvl2#黄
+53,Old Gold,25,#黄#黄,2,Pickaxe,"Deal 2 dmg to an enemy, both player add a #黑 card to the top of their deck.",#黄#黄#白,Phive,Refine,lvl2#黄
+53,Old Gold,25,#黄#黄,2,Fossil Fuel,"Trash the cost, add a lvl3 #黄 card into your hand.",#黑#黑#黑,Phive,Refine,lvl2#黄
+54,Dutch Orange,25,#红#黄#黄,1,Destreza,Deal 1 dmg to enemy front-row. Gain +1 dmg everytime this unit upgrades .,#白#白<Innate>,Jess,Mix,#橙
+54,Dutch Orange,25,#红#黄#黄,1,Empower-I,"For this turn, the next ally ability does +2 dmg.",#红#黄,Jess,Mix,#橙
+54,Dutch Orange,25,#红#黄#黄,1,Empower-II,"For this turn, the next ally ability does +3 dmg, +5 if it's this unit's own ability.",#红#黄#白,Jess,Mix,#橙
+55,Shikon,20,#蓝#红,6,Stealth,"Unless there are no allies left, this unit can't be targeted in the back-row.",<Passive>,Phive,Mix,#紫
+55,Shikon,20,#蓝#红,6,Backstab,"Deal 2 dmg to an enemy, +2 dmg on first use of each turn.",#蓝#红,Phive,Mix,#紫
+55,Shikon,20,#蓝#红,6,Critical Strike,"When this unit deals dmg to back-row units, reveal the top of your deck. If it's #红 or #紫, that dmg is doubled. Then discard that card.",[#蓝#红]<Passive>,Phive,Mix,#紫
+56,Verdigris,25,#蓝#黄,4,Oxydize,"Add a #黑 to the discard pile before discard phase. When this unit spends #黑 for an ability, take 1 dmg and deal +1 dmg once.",<Innate><Passive>,柿子,Mix,#绿
+56,Verdigris,25,#蓝#黄,4,Pistol,Deal 1 dmg to an enemy.,#白,柿子,Mix,#绿
+56,Verdigris,25,#蓝#黄,4,Pulse Katana,Deal 5 dmg to enemy front-row,#蓝#黄#白,柿子,Mix,#绿
+57,Scheele Green,20,#蓝#蓝#黄,3,Channel Darkness,Take 2 dmg to use #黑 from hand as #绿.,<Innate><Passive>,柿子,Mix,#绿
+57,Scheele Green,20,#蓝#蓝#黄,3,Blightening Hex,"Once per turn, choose：
+-Both players add a #黑 on top of their deck.
+-Deal 1 dmg to enemy front-row, +1 for every #黑 in their discard pile.",#蓝#黄,柿子,Mix,#绿
+57,Scheele Green,20,#蓝#蓝#黄,3,Phantasmal Harvest,"Once per turn, draw 2 when you drew a #黑.
+Effects remain when this unit is defeated.",<Passive>,柿子,Mix,#绿
+58,Bengara,25,#红#红#黄,0,Passion!,"Once per turn, take 2 dmg to lower next ally's upgrade or ability's cost by #红/#黄.",<Innate><Passive>,Phive,Refine,lvl2#红/#黄
+58,Bengara,25,#红#红#黄,0,Courage!!,"Deal +1 dmg.
+If [#红#黄]: Before discard phase, deal 1 dmg to enemy front-row.",<Passive>,Phive,Refine,lvl2#红/#黄
+58,Bengara,25,#红#红#黄,0,Gigazord!!!,"Defeats this unit. Target another ally, their max HP goes up to 35, heal by this unit's reaining HP, and gain this unit's passive abilites.",#红#红#黄,Phive,Refine,lvl2#红/#黄
+59,Glacier Lake ,25,#蓝#蓝#蓝,5,Snowball,"Deal 2 dmg to an enemy, opponent must flip a card from hand, unless they have no more than 3 upward cards.",#蓝#白<Innate>,阿玖,Refine,lvl2#蓝
+59,Glacier Lake ,25,#蓝#蓝#蓝,5,Avalanche,Deal x dmg to all enemies and self. x = the amount of #蓝 in your discard pile.,#蓝#蓝#蓝#白#白,阿玖,Refine,lvl2#蓝
+59,Glacier Lake ,25,#蓝#蓝#蓝,5,Cold Wave,"Each turn, -2 dmg on enemie's first ability that dealt dmg to allies.",[#蓝#蓝#蓝]<Passive>,阿玖,Refine,lvl2#蓝
+60,Rust Red,20,#红#红,0,Combo,"After using non-passive ability, this unit's next ability this turn deals +1 dmg.",<Innate><Passive>,CAPCOM(,Refine,lvl2#红
+60,Rust Red,20,#红#红,0,Jab,Deal 1 dmg twice to enemy front-row.,#白#白,CAPCOM(,Refine,lvl2#红
+60,Rust Red,20,#红#红,0,Demon Raging,"Deal 1 dmg 7 times to enemy front-row, discard your loaded cards.",[#红#红#红]#红#红,CAPCOM(,Refine,lvl2#红
+61,Tarragon,25,#蓝#黄#黄,3,Destreza,Deal 1 dmg to enemy front-row. Gain +1 dmg everytime this unit upgrades .,#白#白<Innate>,Jess,Mix,#绿
+61,Tarragon,25,#蓝#黄#黄,3,Fervor-I,"For this turn, the next ally ability does +1 dmg and costs 2 #蓝/#黄/#白 less.",#蓝#黄,Jess,Mix,#绿
+61,Tarragon,25,#蓝#黄#黄,3,Fervor-II,"Same as ""Fervor-I"", except it's +2 dmg.",#蓝#黄#白,Jess,Mix,#绿
+62,Pale Celadon,25,#蓝#红#黄,8,Necronomicon,"When using an ability, heal 1 for every defeated ally.",<Innate><Passive>,玉米,Dilute,#彩
+62,Pale Celadon,25,#蓝#红#黄,8,Frenzy,"Once per turn, deal 2 dmg to all allies, draw 2.",#白,玉米,Dilute,#彩
+62,Pale Celadon,25,#蓝#红#黄,8,Eldrich Rend,"Deal 2 dmg to two targets, +1 dmg for every defeated ally.",#蓝#红#黄,玉米,Dilute,#彩
+63,Nettle,25,#蓝#黄#黄,3,Guard,This unit takes the first instance of dmg dealt to another ally.,<Innate><Passive>,Phive,Refine,lvl2#蓝/#黄
+63,Nettle,25,#蓝#黄#黄,3,Smite,"Deal 3 dmg to an enemy.
+If[#蓝#蓝]: All allies heal 1.",#黄#黄#白,Phive,Refine,lvl2#蓝/#黄
+63,Nettle,25,#蓝#黄#黄,3,Radience,"When you heal, deal 1 dmg to all enemies.",[#黄#黄]<Passive>,Phive,Refine,lvl2#蓝/#黄
+64,Mallow,25,#蓝#红#红,6,Destreza,Deal 1 dmg to enemy front-row. Gain +1 dmg everytime this unit upgrades .,#白#白#白<Innate>,Phive,Mix,#紫
+64,Mallow,25,#蓝#红#红,6,Frostbound-I,"For this turn, the next ally ability deal +1 dmg to enemy front-row. Upon dmg, opponent must flip a card from hand, unless they have no more than 3 upward cards.",#蓝#红,Phive,Mix,#紫
+64,Mallow,25,#蓝#红#红,6,Frostbound-II,"Same as ""Frostbound-I"", except:
+- +2 Dmg to front-row.
+- Flip 2 cards upon dmg.
+",#蓝#红#白,Phive,Mix,#紫
+65,Hopi Purple,20,#蓝#红,6,Cantrip,"Deal 1 dmg to an enemy, +1 dmg when this unit fully upgrades.",#红/#蓝<Innate>,Phive,Mix,#紫
+65,Hopi Purple,20,#蓝#红,6,Weaving,"When an ally uses a non-passive ability, you may pay an extra #蓝 to give it +1 dmg and +1 heal.",<Passive>,Phive,Mix,#紫
+65,Hopi Purple,20,#蓝#红,6,Soul Flame,"Once per turn, deal 1 dmg to all enemies or heal other allies by 1.",#红 + 2HP,Phive,Mix,#紫
+66,Manganese Blue,30,#蓝#蓝#红,5,Organized,This unit can load two cards each turn.,<Innate><Passive>,Phive,Refine,lvl2#蓝/#红
+66,Manganese Blue,30,#蓝#蓝#红,5,Laser,Deal 2 dmg to an enemy. add and load a tapped #红 for them.,#蓝#白,Phive,Refine,lvl2#蓝/#红
+66,Manganese Blue,30,#蓝#蓝#红,5,Fox-2,Deal 3 dmg to all enemies units with #红 loaded.,#蓝#蓝#白,Phive,Refine,lvl2#蓝/#红
+67,Iron,20,#蓝#红#黄,7,At Your Service,"Once per turn, go to frontline.",<Innate>,Phive,Dilute,#彩
+67,Iron,20,#蓝#红#黄,7,Salesman,"Deal 2 dmg to enemy front-row, heal self by 1.",#蓝#黄,Phive,Dilute,#彩
+67,Iron,20,#蓝#红#黄,7,Magnetic Pull,"Once per turn, deal 2 dmg to an enemy, bring them to front-row.",#蓝/#红,Phive,Dilute,#彩
+68,Sage,25,#蓝#黄,3,Librarian,"Once per turn, search your deck for a card, then shuffle it.",#蓝<Innate>,玉米,Mix,#绿
+68,Sage,25,#蓝#黄,3,Enlighten,"Once per turn, upgrade an ally.",#蓝#黄,玉米,Mix,#绿
+68,Sage,25,#蓝#黄,3,Mind Rend,"Deal 2 dmg to a target, +2 dmg unless they show a #蓝 card from their hand. ",#蓝#黄,玉米,Mix,#绿
+69,Ivory,25,#蓝#红#黄,8,Undefinition,"Cannot load cards. Upon upgrade, can choose any non-lvl3 card as reward.",<Innate><Passive>,Phive,Dilute,#彩
+69,Ivory,25,#蓝#红#黄,8,Deconstruction,"Once per turn, deal 1 dmg to an enemy. +1 dmg for each unique card in your discard pile.",#蓝#红#黄,Phive,Dilute,#彩
+69,Ivory,25,#蓝#红#黄,8,Absurdity,End the game as a tie.,#蓝#蓝#红#红#黄#黄#白#白#白,Phive,Dilute,#彩
+70,Slate Grey,25,#蓝#蓝#黄,5,Frites,"When this unit defeats an enemy or vice-versa, add two lvl1 #黄 into killer's hand.",<Passive>,Phive,Refine,lvl2#蓝/#黄
+70,Slate Grey,25,#蓝#蓝#黄,5,Die Munition!,+1 card draw during draw phase. This unit must discard a loaded card upon taking dmg.,[#黄]<Passive>,Phive,Refine,lvl2#蓝/#黄
+70,Slate Grey,25,#蓝#蓝#黄,5,M1917 Telescopic,"Deal 2 dmg to an enemy. Once you've unlocked this ability, all cards from your hand are considered #白#白 until this unit is defeated.",#白#白,Phive,Refine,lvl2#蓝/#黄
+71,Red Ochre,20,#红#白#白,0,Conventional,"Your deck is flipped over facing up, you may discard the top card before draw phase.",<Passive>,Phive,Refine,lvl2#红
+71,Red Ochre,20,#红#白#白,0,Rifle,"Deal 4 dmg to an enemy, discard a loaded card.",[#白]#红#白,Phive,Refine,lvl2#红
+71,Red Ochre,20,#红#白#白,0,Trench,"Can load any card.
+If [#白#白#白]: Back-row allies take -1 dmg.",<Passive>,Phive,Refine,lvl2#红
+75,Red Maple,25,#红#黄,1,Immolate,Deal 3 dmg to an enemy and self. You may trash one of the costs.,#红#黄<Innate>,玉米,Mix,#橙
+75,Red Maple,25,#红#黄,1,Torch Passing,"After using an ability, this unit may take 2 dmg to load one of the costs to another ally.",<Passive>,玉米,Mix,#橙
+76,Charcoal,25,#蓝#红#黄,7,Cinder,"Whenever you trash a card, deal x dmg to enemy front-row. x = card worth in #白. ",<Innate><Passive>,Phive,Dilute,#彩
+76,Charcoal,25,#蓝#红#黄,7,Forge,"Once per turn, trash a #蓝/#红/#黄 card, add a same-colored card that's one lvl higher in your hand.",#红#黄/#彩,Phive,Dilute,#彩
+76,Charcoal,25,#蓝#红#黄,7,Quenching,"Once per turn, when you add a #蓝/#红/#黄 card into your hand, make it one level higher.",[#蓝#蓝#蓝]<Passive>,Phive,Dilute,#彩
+79,Absinthe,20,#蓝#黄,3,Sipping,"Once per turn, add a #黑 into your discard pile, then draw a card.",<Innate>,Jess,Mix,#绿
+79,Absinthe,20,#蓝#黄,3,Blackout,"Once per turn, discard your hand, deal 2 dmg per #黑 discarded.",#蓝#黄,Jess,Mix,#绿
+79,Absinthe,20,#蓝#黄,3,Cheers,"Once per turn, draw 3. You may use this for free if you let opponent draw 3 as well.",#蓝#黄#白,Jess,Mix,#绿
+81,Canola,28,#红#黄#黄,2,Dash,"Draw 2, till the end of your turn, no other characters can upgrade, load, or use non-passive abilites.",#黄#白/#红#白<Innate>,阿玖,Refine,lvl2#黄/#红
+81,Canola,28,#红#黄#黄,2,Whirlwind Slash,"Once per turn, discard your hand, deal x dmg to all enemies. x = #黄 discarded.",#黄#白,阿玖,Refine,lvl2#黄/#红
+81,Canola,28,#红#黄#黄,2,Static Surge,"Upon dealing dmg, if target has #黄 loaded then they take +2 dmg, otherwise, add and load a tapped #黄 for them.",<Passive>,阿玖,Refine,lvl2#黄/#红
+82,Seashell,1,#蓝#红#黄,8,Shell,"Has unlimited load capacity, starts with three #彩 loaded. Upgrade rewards get loaded immedatly. This unit can discard a #彩 to avoid dmg.",<Innate><Passive>,Jess,Dilute,#彩
+82,Seashell,1,#蓝#红#黄,8,Go Fish,"Deal 2 dmg to an enemy, and reveal your deck until you get a #彩, take it to your hand and discard the rest.",#蓝#红,Jess,Dilute,#彩
+82,Seashell,1,#蓝#红#黄,8,Coastal Siren,"Once per turn, deal 2 dmg to all enemies and draw a card.",#彩#白,Jess,Dilute,#彩
+83,Khaki,20,#蓝#黄#黄,3,Wind Magic,"Each turn, the first time you deal dmg, load the top card of your deck to self.",<Innate><Passive>,玉米,Mix,#绿
+83,Khaki,20,#蓝#黄#黄,3,Quick Shot,"Once per turn, deal 2 dmg to an enemy.",#蓝,玉米,Mix,#绿
+83,Khaki,20,#蓝#绿#绿,3,Charged Shot,"Discard your loaded cards to deal dmg to an enemy. +2 dmg for each #黄 card, +1 target for each #蓝 card. #绿 can be treated as either.",[#黄]#蓝,玉米,Mix,#绿
+84,Chestnut,20,#红#黄,1,Cooking Time!,"Once per turn, trash the cost, add a #橙 to discard pile.",#红#黄<Innate>,阿玖,Mix,#橙
+84,Chestnut,20,#红#黄,1,Nut Bomb,"Once per turn, deal 2 dmg to an enemy, deal 1 to other enemies.",#红#黄,阿玖,Mix,#橙
+84,Chestnut,20,#红#黄,1,Bon Appetit!,"Once per turn, heal 3 for an ally and load them the top of your deck. If they are already fully loaded then they take 5 dmg.",[#红#黄]#红#黄,阿玖,Mix,#橙
+85,Baby Blue,20,#蓝#蓝#白,5,Sneaky,"Once per turn, this unit may pay 1 less #蓝 to upgrade/use an ability.",[#蓝#蓝]<Innate><Passive>,Phive,Refine,lvl2#蓝
+85,Baby Blue,20,#蓝#蓝#白,5,Omen,"Once per turn, deal 2 dmg to an enemy, for this turn, the next ally ability does +1 dmg.",#蓝#白,Phive,Refine,#lvl2蓝
+85,Baby Blue,20,#蓝#蓝#白,5,Reflection,"Once per turn, use this as any none-passive abilites in the current game (dosen't have to be unlocked).",(Target ability's cost) + 2HP,Phive,Refine,lvl2#蓝
+86,Jade White,22,#蓝#黄#白,8,Wither,"Before your first turn, get the unit with least HP on each side, lower their Max HP by 3. Won't make their max HP go below 15.",<Innate><Passive>,Phive,Dilute,#彩
+86,Jade White,22,#蓝#黄#白,8,Haunt,"Once per turn, Deal 2 dmg to each side's units with least HP, then heal 2 for this unit.",#蓝/#黄,Phive,Dilute,#彩
+86,Jade White,22,#蓝#黄#白,8,Ouija,"Once per game, gain a none-passive ability from a defeated character. Aquire their upgrade reward once. ",#蓝#黄,Phive,Dilute,#彩
+87,Silver Blue,25,#蓝#蓝#蓝,5,Spec Ops,"Before your first turn, add and load a #彩 to this unit.",<Innate><Passive>,Meeca,Refine,lvl2#蓝
+87,Silver Blue,25,#蓝#蓝#蓝,5,Ice Lance,"Deal 3 dmg to an enemy.
+If [#蓝#蓝]: Tap a loaded card of theirs.",#蓝#蓝/#彩,Meeca,Refine,lvl2#蓝
+87,Silver Blue,25,#蓝#蓝#蓝,5,Cold Snap,"Upon dealing dmg to an enemy, if their HP went under 5 afterward, defeat them.",<Passive>,Meeca,Refine,lvl2#蓝
+88,Caput Mortuum,20,#红#红,0,Spec Ops,"Before your first turn, add and load a #彩 to this unit.",<Innate><Passive>,Jess,Refine,lvl2#红
+88,Caput Mortuum,20,#红#红,0,Field Alchemy,"Trash the cost and top of your deck, add an ally's upgrade reward on top your deck. ",#红,Jess,Refine,lvl2#红
+88,Caput Mortuum,20,#红#红,0,Surgical Sampling,"Once per turn, deal 5 dmg or heal 3 to a target, add their upgrade reward on top your deck. ",#红#红#红,Jess,Refine,lvl2#红
+90,Methyl Violet,25,#蓝#红,6,Psy Aura,Characters with [#蓝#红] loaded deals and take +1 dmg.,[#蓝#红]<Innate><Passive>,CAPCOM(,Mix,#紫
+90,Methyl Violet,25,#蓝#红,6,Jab,Deal 1 dmg twice to enemy front-row.,#白#白,CAPCOM(,Mix,#紫
+90,Methyl Violet,25,#蓝#红,6,Magnetic Pull,"Once per turn, deal 2 dmg to an enemy, bring them to front-row.",#蓝/#红,CAPCOM(,Mix,#紫
+91,Yax,30,#蓝#蓝#黄,4,Brute Force,"Upon dealing dmg, tap your loaded cards, +2 dmg for every card discarded this way.",<Innate><Passive>,Phive,Refine,#绿
+91,Yax,30,#蓝#蓝#黄,4,Wrestle,"Once per turn, deal 4 dmg to enemy front-row.",#蓝#黄,Phive,Refine,#绿
+91,Yax,30,#蓝#蓝#黄,4,Stunning Impact,"Upon dealing dmg, opponent must flip a card from hand for each 3 dmg dealt.",<Passive>,Phive,Refine,#绿
+92,Tyrian Pink,25,#蓝#红#红,0,Heart Mapping,"Once per turn, pick a player, put a card from their discard pile upon their deck.",#白<Innate>,玉米,Mix,#紫
+92,Tyrian Pink,25,#蓝#红#红,0,Healing Spell,"Once per turn, load a cost to target unit, then heal 2 for target.",#蓝#红,玉米,Mix,#紫
+92,Tyrian Pink,25,#蓝#红#红,0,Mind Shatter,"Deal 3 dmg to an enemy, discard the top of opponent's deck, if it's #红 then +3 dmg.",#蓝#红#红,玉米,Mix,#紫
+93,Amber Brown,20,#红#黄,1,Load Film,"Once per turn, load the top of your deck facing down.",<Innate><Passive>,雾雨朦胧,Mix,#橙
+93,Amber Brown,20,#红#黄,1,Photography,"Once per turn, discard a loaded card and pick a target, add and load a copy of a loaded card of theirs.",[#白]#红#黄#白,雾雨朦胧,Mix,#橙
+93,Amber Brown,20,#红#黄,1,Flickering Flare,Deal 1 dmg to an enemy once for each of your loaded cards.,[#白]#红#黄#白,雾雨朦胧,Mix,#橙
+94,Lilac,25,#蓝#红,6,Organized,Can load two cards each turn.,<Innate><Passive>,k咪,Mix,#紫
+94,Lilac,25,#蓝#红,6,Sentry Gun,"At the end of your turn, deal 1 dmg to enemy front-row.
+If [#红#红]: +1 dmg for every #红#红.
+If [#蓝#蓝#蓝]: +1 shot for every #蓝#蓝#蓝.",[#红]<Passive>,k咪,Mix,#紫
+94,Lilac,25,#蓝#红,6,Healing Spell,"Once per turn, load a cost to target unit, then heal 2 for target.",#蓝#红,k咪,Mix,#紫
+95,Sky Blue,20,#蓝#蓝,5,Shrouded,"Until your next turn, opponent must pay an extra #白 when targeting this unit as primary target. (non-passive abilites only) ",#蓝#白<Innate>,柠子,Refine,lvl2#蓝
+95,Sky Blue,20,#蓝#蓝,5,Nimbus Vortex,"Deal 3 dmg to an enemy, add a lvl2 #蓝 into discard pile.",#蓝#蓝#白,柠子,Refine,lvl2#蓝
+96,Serene Blue,25,#蓝#蓝,5,Sleight of Hand,"Once per turn, pick a target, return a loaded card of theirs back to their player's hand, and load the cost to them.",#白<Innate>,橘莫,Refine,lvl2#蓝
+96,Serene Blue,25,#蓝#蓝,5,Throwing Cards,"Once per turn, discard 3/4/5 cards of the same color, deal 3/5/10 dmg to an enemy.",Free,橘莫,Refine,lvl2#蓝
+96,Serene Blue,25,#蓝#蓝,5,Astral Force,"Once per turn, your lvl2 or above card can be treated as any color.",<Passive>,橘莫,Refine,lvl2#蓝
+97,Night Blue,25,#蓝#蓝#红,6,Wind Magic,"Each turn, the first time you deal dmg, load the top card of your deck to self.",<Innate><Passive>,玉米,Mix,#紫
+97,Night Blue,25,#蓝#蓝#红,6,Shadow Bolt,"Once per turn, deal 3 dmg to an enemy, add a #黑 into your hand.",#蓝#红#白,玉米,Mix,#紫
+97,Night Blue,25,#蓝#蓝#红,6,Mocking Shadow,"Use this as any none-passive abilites in the current game (dosen't have to be unlocked). If its normalized cost exceeds #白#白#白, then fill the gap with #黑.",#蓝#红#黑,玉米,Mix,#紫
+98,Graphite,25,#蓝#红#黄,8,Spooky,Your #彩 cards played from your hand worth +1 #白.,<Innate>,Jess,Dilute,#彩
+98,Graphite,25,#蓝#红#黄,8,Scary,Deal 3 dmg to an enemy.,#白#白#白#白,Jess,Dilute,#彩
+98,Graphite,25,#蓝#红#黄,8,Skeleton,"Once per game, heal self by 10, heal 25 if you have no allies.",[#白#白#白]#白,Jess,Dilute,#彩

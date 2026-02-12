@@ -83,6 +83,7 @@ public class DataEntry : MonoBehaviour
 
             thisCardData.authorName = sheetLoader.CheckTile(pointer, 8);
             thisCardData.upgradeType = sheetLoader.CheckTile(pointer, 9);
+            thisCardData.upgradeReward = sheetLoader.CheckTile(pointer, 10);
 
 
             //Inputs the abilites, this action also move the pointer downward so put every entry before this
@@ -94,8 +95,8 @@ public class DataEntry : MonoBehaviour
                     if (thisCardData.index == int.Parse(sheetLoader.CheckTile(currentline, 0)))
                     {
                         AbilityData thisAbility = new AbilityData();
-                        thisAbility.AbilityName = sheetLoader.CheckTile(currentline, 5);
-                        thisAbility.AbilityName += sheetLoader.CheckTile(currentline, 7);//this puts cost right after name in game
+                        thisAbility.AbilityName = sheetLoader.CheckTile(currentline, 5) + sheetLoader.CheckTile(currentline, 7);
+                        thisAbility.AbilityCost = sheetLoader.CheckTile(currentline, 7);
                         thisAbility.AbilityText = sheetLoader.CheckTile(currentline, 6);
                         //Debug.Log(thisCardData.abilityDatas.Count);
                         thisCardData.abilityDatas.Add(thisAbility);

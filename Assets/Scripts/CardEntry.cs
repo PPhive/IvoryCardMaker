@@ -17,7 +17,7 @@ public class CardEntry : MonoBehaviour
     public void Refresh(CardData cardData) 
     {
         hpText.Refresh(cardData.HP);
-        upgradeText.Refresh(cardData.upgradeCost,cardData.upgradeType);
+        upgradeText.Refresh(cardData.upgradeCost,cardData.upgradeType, cardData.upgradeReward);
         Debug.Log(cardData.upgradeType);
         bottomText.Refresh(cardData.name, cardData.abilityDatas);
         baseChanger.changeBase(cardData.baseID);
@@ -37,6 +37,7 @@ public class CardData
     public List<AbilityData> abilityDatas = new List<AbilityData>();
     public string authorName = "";
     public string upgradeType = "Ã·¥ø";
+    public string upgradeReward = "";
 
     public void Clear() 
     {
@@ -48,12 +49,14 @@ public class CardData
         abilityDatas.Clear();
         authorName = "";
         upgradeType = "Ã·¥ø";
-}
+        upgradeReward = "";
+    }
 }
 
 [System.Serializable]
 public class AbilityData 
 {
     public string AbilityName;
+    public string AbilityCost;
     public string AbilityText;
 }

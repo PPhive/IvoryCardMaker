@@ -7,9 +7,17 @@ public class UpgradeText : MonoBehaviour
 {
     public TextMeshPro TMPro;
 
-    public void Refresh(string upgradeCost, string upgradeType)
+    public void Refresh(string upgradeCost, string upgradeType, string upgradeReward)
     {
         upgradeCost = PublicMethods.instance.ReplaceIcons(upgradeCost);
+        upgradeReward = PublicMethods.instance.ReplaceIcons(upgradeReward);
+
+        //TMPro.text = upgradeType + upgradeCost;
+        TMPro.text = "Upgrade:" + upgradeCost;
+        TMPro.text += "\n" + "Reward:" + upgradeReward;
+
+
+        /*
         if (upgradeType == "»ìÉ«")
         {
             TMPro.text = "»ìÉ«" + upgradeCost;
@@ -22,5 +30,6 @@ public class UpgradeText : MonoBehaviour
         {
             TMPro.text = "Ìá´¿" + upgradeCost;
         }
+        */
     }
 }
